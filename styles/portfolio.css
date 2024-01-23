@@ -1,0 +1,42 @@
+/* common shared styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.orang-color{
+    color: orange;
+}
+
+
+/* nav styles here,for on line flex can use */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-title{
+font-size: 45px;
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    margin: 45px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(95, 88, 88);
+}
+
+.btton-primary{
+
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+}
