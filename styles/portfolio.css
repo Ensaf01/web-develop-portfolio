@@ -116,3 +116,15 @@ max-width: 500px;
     text-align: center;
     font-size: 18px;
 }
+
+#about-i-do-description{
+    padding: 30px 150px;
+}
+
+
+/* skills container  */
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    background-color:#b4aaaa ;
+}
